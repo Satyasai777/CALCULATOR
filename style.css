@@ -1,0 +1,56 @@
+#box{
+    margin: auto;
+    margin-top: 10%;
+    border: 2px solid black;
+    height: 400px;
+    width: 250px;
+    background: whitesmoke;
+    box-shadow: 0 0 10px #ccc;
+}
+#heading{
+    margin-left: 15px;
+    color:rgba(8, 8, 129, 0.607);
+}
+#input_box{
+    border: 1px solid black;
+    margin-left: 15px;
+    height: 25px;
+    width: 200px;
+    background:white;
+}
+#line,#line1,#line2,#line3,#line4{
+    height: 35px;
+    width:200px;
+    margin-left:10px ;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#div,#mul,#add,#sub,#dot,#equ,#one,#two,#thr,#fou,#fiv,#six,#sev,#eig,#nin{
+    height: 35px;
+    width:35px;
+    margin-left: 15px;
+    margin-top: 10px;
+    background:blanchedalmond ;
+}
+#c{
+    height: 35px;
+    width: 95px;
+    margin-left: 15px;
+    margin-top: 10px;
+    background: linear-gradient(90deg, black,red,black);
+}
+#zer{
+    height: 35px;
+    width: 145px;
+    margin-left: 15px;
+    margin-top: 10px;
+    background:blanchedalmond ;
+}
+#div,#sub,#mul,#add{
+    background: greenyellow;
+    border-radius: 5px;
+}
+body{
+    background: linear-gradient(black,whitesmoke,black);
+}

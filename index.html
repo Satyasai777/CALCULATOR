@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body style="font-family: gill sans">
+    <div id="box">
+        <div id="heading">
+            <h1>CALCULATOR</h1>
+        </div>
+        <div id="input_box" value="0">
+        </div>
+        <div id="line">
+            <button type="submit" value="c" id="c" onclick="window.location.reload()">C</button>
+            <button type="submit" value=" * " id="mul" onclick="mulf()">*</button>
+            <button type="submit" value=" / " id="div" onclick="divf()">/</button>
+        </div>
+        <div id="line1">
+            <button type="submit" value="7" id="sev" onclick="sevf()">7</button>
+            <button type="submit" value="8" id="eig" onclick="eigf()">8</button>
+            <button type="submit" value="9" id="nin" onclick="ninf()">9</button>
+            <button type="submit" value=" - " id="sub" onclick="subf()">-</button>
+        </div>
+        <div id="line2">
+            <button type="submit" value="4" id="fou" onclick="fouf()">4</button>
+            <button type="submit" value="5" id="fiv" onclick="fivf()">5</button>
+            <button type="submit" value="6" id="six" onclick="sixf()">6</button>
+            <button type="submit" value=" + " id="add" onclick="addf()">+</button>
+        </div>
+        <div id="line3">
+            <button type="submit" value="1" id="one" onclick="onef()">1</button>
+            <button type="submit" value="2" id="two" onclick="twof()">2</button>
+            <button type="submit" value="3" id="thr" onclick="thrf()">3</button>
+            <button type="submit" value="=" id="equ" onclick="equalf()">=</button>
+        </div>
+        <div id="line4">
+            <button type="submit" value="0" id="zer" onclick="zerf()">0</button>
+            <button type="submit" value="." id="dot" onclick="dotf()">.</button>
+        </div>
+    </div>
+    <script src="./design.js"></script>
+</body>
+</html>
